@@ -2,17 +2,17 @@
 
 // ===== YOUR PERSONAL INFORMATION - UPDATE THIS WITH YOUR DETAILS =====
 export const personalInfo = {
-  name: "Gizachew", // Your name
-  title: "Full Stack Developer",
-  email: "your.email@example.com",
-  phone: "+1 234 567 890",
-  location: "New York, USA",
+  name: "Gizachew kassa", // Your name
+  title: "web Developer",
+  email: "gizachewkassa33@example.com",
+  phone: "+251 972182578",
+  location: "ethiopia",
   bio: "I'm a passionate developer who loves building beautiful and functional web applications. I specialize in React and modern JavaScript.",
   avatar: "https://via.placeholder.com/400x500",
   resume: "#",
   
   socialLinks: {
-    github: "https://github.com/yourusername",
+    github: "https://github.com/gizachew-k",
     linkedin: "https://linkedin.com/in/yourusername",
     twitter: "https://twitter.com/yourusername",
     instagram: "https://instagram.com/yourusername"
