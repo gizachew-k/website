@@ -148,7 +148,7 @@ export const projects = [
 
 // ===== EMAILJS CONFIGURATION - UPDATE WITH YOUR CREDENTIALS =====
 export const emailConfig = {
-  serviceId: "48e6N4MweRNcsz3690CtR", // Replace with your EmailJS service ID
-  templateId: "48e6N4MweRNcsz3690CtR", // Replace with your EmailJS template ID
-  userId: "RNivhqaLd37J755rs" // Replace with your EmailJS public key
+  serviceId: "service_nb48hm8", // Replace with your EmailJS service ID
+  templateId: "template_d750h8i", // Replace with your EmailJS template ID
+  userId: "q45u_6pMevPd2U_sK" // Replace with your EmailJS public key
 };
