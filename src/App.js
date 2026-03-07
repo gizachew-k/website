@@ -2,6 +2,7 @@
 import React from 'react';
 import Navbar from './components/Navbar.jsx';
 import Home from './components/Home.jsx';
+import Contacts from './components/Contacts.jsx';
 import './App.css';
 
 
@@ -11,6 +12,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Home />
+      <Contacts />
       <section id="home" style={{ height: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
         <h1>Home Section</h1>
       </section>
