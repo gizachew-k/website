@@ -1,13 +1,16 @@
 
 import React from 'react';
 import Navbar from './components/Navbar.jsx';
+import Home from './components/Home.jsx';
 import './App.css';
+
 
 
 function App() {
   return (
     <div className="App">
       <Navbar />
+      <Home />
       <section id="home" style={{ height: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
         <h1>Home Section</h1>
       </section>
