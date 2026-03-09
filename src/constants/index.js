@@ -113,16 +113,16 @@ export const projects = [
     live: "https://project3-demo.com",
     featured: false
   },
-  {
-    id: 4,
-    title: "AI Image Generator",
-    description: "Generate unique images using AI. Built with React and OpenAI's DALL-E API.",
-    image: "https://via.placeholder.com/600x400/1a1a2e/915eff?text=AI+Generator",
-    technologies: ["React", "OpenAI API", "Node.js", "Express"],
-    github: "https://github.com/yourusername/project4",
-    live: "https://project4-demo.com",
-    featured: true
-  },
+  // {
+  //   id: 4,
+  //   title: "AI Image Generator",
+  //   description: "Generate unique images using AI. Built with React and OpenAI's DALL-E API.",
+  //   image: "https://via.placeholder.com/600x400/1a1a2e/915eff?text=AI+Generator",
+  //   technologies: ["React", "OpenAI API", "Node.js", "Express"],
+  //   github: "https://github.com/yourusername/project4",
+  //   live: "https://project4-demo.com",
+  //   featured: true
+  // },
   {
     id: 5,
     title: "Social Media Dashboard",
@@ -148,7 +148,7 @@ export const projects = [
 
 // ===== EMAILJS CONFIGURATION - UPDATE WITH YOUR CREDENTIALS =====
 export const emailConfig = {
-  serviceId: "service_nb48hm8", // Replace with your EmailJS service ID
-  templateId: "template_d750h8i", // Replace with your EmailJS template ID
+  serviceId: "service_4slt5wf", // Replace with your EmailJS service ID
+  templateId: "template_d750h8l", // Replace with your EmailJS template ID
   userId: "q45u_6pMevPd2U_sK" // Replace with your EmailJS public key
 };

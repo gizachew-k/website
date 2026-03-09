@@ -13,10 +13,10 @@ function App() {
       <Navbar />
       <Home />
       <Contacts />
-      <section id="home" style={{ height: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+      {/* <section id="home" style={{ height: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
         <h1>Home Section</h1>
-      </section>
-      <section id="about" style={{ height: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', background: '#1a1a2e' }}>
+      </section> */} */}
+      {/* {/* <section id="about" style={{ height: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', background: '#1a1a2e' }}>
         <h1>About Section</h1>
       </section>
       <section id="projects" style={{ height: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', background: '#16213e' }}>
@@ -24,7 +24,7 @@ function App() {
       </section>
       <section id="contact" style={{ height: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', background: '#0f0f1a' }}>
         <h1>Contact Section</h1>
-      </section>
+      </section> */}
     </div>
   );
 }
