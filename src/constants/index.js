@@ -52,63 +52,33 @@ export const skills = [
 export const projects = [
   {
     id: 1,
-    title: "E-Commerce Platform",
-    description: "A full-featured e-commerce platform with user authentication, product management, shopping cart, and secure payment integration using Stripe.",
-    image: "https://via.placeholder.com/600x400/1a1a2e/915eff?text=E-Commerce",
-    technologies: ["React", "Node.js", "MongoDB", "Stripe", "Redux"],
-    github: "https://github.com/gizachew-k/ecommerce",
-    live: "https://ecommerce-demo.com",
+    title: "Personal Portfolio",
+    description: "My professional portfolio website built with React. Features smooth animations, responsive design, and a working contact form.",
+     image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=600&h=400&fit=crop",
+    technologies: ["React", "Framer Motion", "CSS3", "EmailJS"],
+    github: "https://github.com/gizachew-k/website",
+    live: "#",
     featured: true
   },
   {
     id: 2,
-    title: "Task Management App",
-    description: "A collaborative task management application with drag-and-drop functionality, real-time updates, team workspaces, and progress tracking.",
-    image: "https://via.placeholder.com/600x400/1a1a2e/915eff?text=Task+App",
-    technologies: ["React", "Firebase", "Framer Motion", "Tailwind", "Redux"],
-    github: "https://github.com/gizachew-k/taskmanager",
-    live: "https://taskmanager-demo.com",
-    featured: true
+    title: "Todo List App (Coming Soon)",
+    description: "A feature-rich todo application with local storage, categories, and dark mode. Currently in development.",
+   image: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=600&h=400&fit=crop",
+    technologies: ["React", "LocalStorage", "CSS"],
+    github: "https://github.com/gizachew-k/todo-app",
+    live: "#",
+    featured: false
   },
   {
     id: 3,
-    title: "Weather Dashboard",
-    description: "A beautiful weather application with real-time data, 7-day forecasts, interactive maps, and location-based weather alerts.",
-    image: "https://via.placeholder.com/600x400/1a1a2e/915eff?text=Weather",
-    technologies: ["React", "OpenWeather API", "Chart.js", "CSS3", "Geolocation"],
-    github: "https://github.com/gizachew-k/weather",
-    live: "https://weather-demo.com",
+    title: "Weather Dashboard (Coming Soon)",
+    description: "Real-time weather app with 5-day forecast and location search. Will use OpenWeatherMap API.",
+      image: "https://images.unsplash.com/photo-1592210454359-9043f067919b?w=600&h=400&fit=crop",
+    technologies: ["React", "API", "Chart.js"],
+    github: "https://github.com/gizachew-k/weather-dashboard",
+    live: "#",
     featured: false
-  },
-  {
-    id: 4,
-    title: "AI Image Generator",
-    description: "An AI-powered image generation tool using OpenAI's DALL-E API. Create unique images from text descriptions with customization options.",
-    image: "https://via.placeholder.com/600x400/1a1a2e/915eff?text=AI+Generator",
-    technologies: ["React", "OpenAI API", "Node.js", "Express", "MongoDB"],
-    github: "https://github.com/gizachew-k/ai-generator",
-    live: "https://ai-generator-demo.com",
-    featured: true
-  },
-  {
-    id: 5,
-    title: "Social Media Dashboard",
-    description: "A comprehensive dashboard for managing multiple social media accounts with analytics, scheduling, and performance tracking.",
-    image: "https://via.placeholder.com/600x400/1a1a2e/915eff?text=Social+Dashboard",
-    technologies: ["React", "Redux", "Node.js", "MongoDB", "Socket.io"],
-    github: "https://github.com/gizachew-k/social-dashboard",
-    live: "https://social-dashboard-demo.com",
-    featured: false
-  },
-  {
-    id: 6,
-    title: "Portfolio Website",
-    description: "This very portfolio website! A modern, responsive portfolio built with React and Framer Motion to showcase my work and skills.",
-    image: "https://via.placeholder.com/600x400/1a1a2e/915eff?text=Portfolio",
-    technologies: ["React", "Framer Motion", "CSS3", "EmailJS", "React Intersection Observer"],
-    github: "https://github.com/gizachew-k/portfolio",
-    live: "https://gizachew-k.github.io/website",
-    featured: true
   }
 ];
 

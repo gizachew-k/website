@@ -3,7 +3,7 @@
 .footer {
   background: #040450;
   position: relative;
-  color: #ffffff;
+  color: #ffffff !important;
   margin-top: 50px;
  
 }
