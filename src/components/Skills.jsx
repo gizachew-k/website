@@ -1,34 +1,38 @@
 import React from 'react';
-import '../styles/Skills.css';
-import { skills } from '../constants';
 
 const Skills = () => {
   return (
-    <section className="skills">
-      <div className="container">
-        <h2 className="section-title">My Skills</h2>
-        <div className="skills-grid">
-          {skills.map((skillCategory, index) => (
-            <div key={index} className="skill-card">
-              <h3 style={{ marginBottom: '15px', color: '#915eff' }}>{skillCategory.category}</h3>
-              {skillCategory.items.map((skill, skillIndex) => (
-                <div key={skillIndex} style={{ marginBottom: '15px' }}>
-                  <div className="skill-header">
-                    <h3>{skill.name}</h3>
-                    {skill.level && <span className="skill-level">{skill.level}%</span>}
-                  </div>
-                  {skill.level && (
-                    <div className="skill-bar">
-                      <div 
-                        className="skill-progress" 
-                        style={{ width: `${skill.level}%` }}
-                      ></div>
-                    </div>
-                  )}
-                </div>
-              ))}
-            </div>
-          ))}
+    <section id="skills" style={{
+      padding: '80px 20px',
+      background: '#1a1a2e',
+      minHeight: '50vh',
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center'
+    }}>
+      <div style={{
+        maxWidth: '1000px',
+        margin: '0 auto',
+        textAlign: 'center'
+      }}>
+        <h2 style={{
+          color: 'white',
+          fontSize: '2.5rem',
+          marginBottom: '40px'
+        }}>
+          My Skills
+        </h2>
+        <div style={{
+          display: 'grid',
+          gridTemplateColumns: 'repeat(3, 1fr)',
+          gap: '20px'
+        }}>
+          <div style={{background: '#915eff', padding: '20px', borderRadius: '10px', color: 'white'}}>React</div>
+          <div style={{background: '#915eff', padding: '20px', borderRadius: '10px', color: 'white'}}>JavaScript</div>
+          <div style={{background: '#915eff', padding: '20px', borderRadius: '10px', color: 'white'}}>HTML/CSS</div>
+          <div style={{background: '#915eff', padding: '20px', borderRadius: '10px', color: 'white'}}>Node.js</div>
+          <div style={{background: '#915eff', padding: '20px', borderRadius: '10px', color: 'white'}}>Python</div>
+          <div style={{background: '#915eff', padding: '20px', borderRadius: '10px', color: 'white'}}>Git</div>
         </div>
       </div>
     </section>

@@ -1,5 +1,3 @@
-// src/components/Navbar.jsx
-
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import '../styles/Navbar.css';
@@ -18,23 +16,21 @@ const Navbar = () => {
   }, []);
 
   const scrollToSection = (sectionId) => {
-  setActiveLink(sectionId);
-  setIsMenuOpen(false);
-  
-  const element = document.getElementById(sectionId);
-  if (element) {
-    element.scrollIntoView({ behavior: 'smooth' });
-  } else {
-    console.log("Element not found:", sectionId);
-  }
-};
+    setActiveLink(sectionId);
+    setIsMenuOpen(false);
+    
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
 
   const navLinks = [
     { id: 'home', title: 'Home' },
     { id: 'about', title: 'About' },
+    { id: 'skills', title: 'Skills' },
     { id: 'projects', title: 'Projects' },
-    { id: 'contact', title: 'Contact' },
-     { id: 'skills', title: 'Skills' }
+    { id: 'contact', title: 'Contact' }
   ];
 
   return (
