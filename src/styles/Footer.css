@@ -1,10 +1,11 @@
 /* src/styles/Footer.css */
 
 .footer {
-  background: #0a0a14;
+  background: #040450;
   position: relative;
   color: #ffffff;
   margin-top: 50px;
+ 
 }
 
 /* Wave effect */
@@ -48,7 +49,7 @@
   font-weight: 700;
   margin-bottom: 20px;
   background: linear-gradient(135deg, #fff, #915eff);
-  -webkit-background-clip: text;
+  /* -webkit-background-clip: text; */
   -webkit-text-fill-color: transparent;
 }
 

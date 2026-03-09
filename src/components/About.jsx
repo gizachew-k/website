@@ -51,16 +51,12 @@ const About = () => {
           >
             <div className="image-wrapper">
               <img 
-                src={personalInfo.avatar || "https://via.placeholder.com/400x500"} 
+                src={require('../assets/images/Profile.png')} 
                 alt={personalInfo.name}
               />
               <div className="image-backdrop"></div>
             </div>
-            
-            {/* <div className="experience-badge">
-              <span className="years">3+</span>
-              <span className="text">Years of<br />Experience</span>
-            </div> */}
+          
           </motion.div>
 
           {/* Right Column - Content */}
@@ -75,12 +71,8 @@ const About = () => {
             </motion.h3>
             
             <motion.p variants={fadeInUp} className="bio">
-              { "I'm a passionate Full Stack Developer with expertise in building modern web applications. I specialize in React, learning Node.js, and creating seamless user experiences."}
+            I'm a passionate <span className="highlight">{personalInfo.title}</span>  in creating beautiful, responsive, and user-friendly web applications.
             </motion.p>
-
-            {/* <motion.p variants={fadeInUp} className="bio-secondary">
-              With over 3 years of experience in the industry, I've worked with startups and established companies to deliver high-quality solutions. My approach combines technical excellence with creative problem-solving to build products that users love.
-            </motion.p> */}
 
             {/* Quick Info Grid */}
             <motion.div variants={fadeInUp} className="info-grid">
@@ -108,13 +100,6 @@ const About = () => {
                 </div>
               </div>
 
-              {/* <div className="info-card">
-                <div className="info-icon">💼</div>
-                <div className="info-content">
-                  <h4>Availability</h4>
-                  <p>Freelance / Full-time</p>
-                </div>
-              </div> */}
             </motion.div>
 
             {/* CTA Buttons */}
@@ -122,9 +107,7 @@ const About = () => {
               <a href="#contact" className="btn btn-primary">
                 Let's Talk
               </a>
-              {/* <a href={personalInfo.resume || "#"} className="btn btn-outline" download>
-                Download CV
-              </a> */}
+         
             </motion.div>
           </motion.div>
         </div>
@@ -136,22 +119,7 @@ const About = () => {
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.8, delay: 0.6 }}
         >
-          {/* <div className="stat-box">
-            <div className="stat-number">3+</div>
-            <div className="stat-label">Years Experience</div>
-          </div> */}
-          {/* <div className="stat-box">
-            <div className="stat-number">15+</div>
-            <div className="stat-label">Projects Completed</div>
-          </div> */}
-          {/* <div className="stat-box">
-            <div className="stat-number">8+</div>
-            <div className="stat-label">Happy Clients</div>
-          </div>
-          <div className="stat-box">
-            <div className="stat-number">24/7</div>
-            <div className="stat-label">Support</div>
-          </div> */}
+         
         </motion.div>
       </div>
     </section>

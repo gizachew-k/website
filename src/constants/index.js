@@ -3,12 +3,12 @@
 // ===== YOUR PERSONAL INFORMATION - UPDATE THIS WITH YOUR DETAILS =====
 export const personalInfo = {
   name: "Gizachew kassa", // Your name
-  title: "web Developer",
+  title: "Aspiring Full Stack Developer",
   email: "gizachewkassa33@example.com",
   phone: "+251 972182578",
   location: "ethiopia",
   bio: "I'm a passionate developer who loves building beautiful and functional web applications. I specialize in React and modern JavaScript.",
-  avatar: "https://via.placeholder.com/400x500",
+
   resume: "#",
   
   socialLinks: {
@@ -41,43 +41,11 @@ export const skills = [
     category: "Tools",
     items: [
       { name: "Git", level: 85, icon: "📚" },
-      { name: "VS Code", level: 90, icon: "💻" },
-      { name: "Figma", level: 70, icon: "🎯" },
-      { name: "Docker", level: 60, icon: "🐳" }
+      { name: "VS Code", level: 90, icon: "💻" }
     ]
   }
 ];
 
-// // ===== EXPERIENCE =====
-// export const experiences = [
-//   {
-//     id: 1,
-//     title: "Senior Frontend Developer",
-//     company: "Tech Solutions Inc.",
-//     location: "San Francisco, CA",
-//     period: "2022 - Present",
-//     description: "Lead developer for multiple web applications, managing a team of 3 developers. Implemented responsive designs and improved performance by 40%.",
-//     technologies: ["React", "TypeScript", "Redux", "Tailwind"]
-//   },
-//   {
-//     id: 2,
-//     title: "Web Developer",
-//     company: "Creative Agency",
-//     location: "New York, NY",
-//     period: "2020 - 2022",
-//     description: "Developed and maintained client websites. Collaborated with designers to create pixel-perfect implementations.",
-//     technologies: ["JavaScript", "React", "SASS", "WordPress"]
-//   },
-//   {
-//     id: 3,
-//     title: "Junior Developer",
-//     company: "StartUp Co.",
-//     location: "Remote",
-//     period: "2019 - 2020",
-//     description: "Built responsive websites and learned modern web development practices.",
-//     technologies: ["HTML", "CSS", "JavaScript", "jQuery"]
-//   }
-// ];
 
 // ===== YOUR PROJECTS =====
 // ===== YOUR PROJECTS - Replace with your actual projects =====

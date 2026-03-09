@@ -61,7 +61,7 @@ const Hero = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.6 }}
           >
-            I'm a passionate <span className="highlight">{personalInfo.title}</span> with expertise in creating beautiful, responsive, and user-friendly web applications.
+            I'm a passionate <span className="highlight">{personalInfo.title}</span>  in creating beautiful, responsive, and user-friendly web applications.
           </motion.p>
 
           <motion.div
@@ -124,20 +124,6 @@ const Hero = () => {
               <i className="fab fa-instagram"></i>
             </a>
           </motion.div>
-        </motion.div>
-
-        <motion.div
-          className="hero-image"
-          initial={{ opacity: 0, scale: 0.8 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 1, delay: 0.5 }}
-        >
-          <div className="image-wrapper">
-            <img
-              src={personalInfo.avatar}
-              alt={personalInfo.name}
-            />
-          </div>
         </motion.div>
       </div>
 

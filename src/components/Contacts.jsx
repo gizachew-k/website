@@ -52,16 +52,6 @@ const Contact = () => {
     show: { opacity: 1, y: 0, transition: { duration: 0.8 } }
   };
 
-  // const staggerContainer = {
-  //   hidden: { opacity: 0 },
-  //   show: {
-  //     opacity: 1,
-  //     transition: {
-  //       staggerChildren: 0.2
-  //     }
-  //   }
-  // };
-
   return (
     <section id="contact" className="contact">
       <div className="container">
@@ -145,14 +135,14 @@ const Contact = () => {
               >
                 <i className="fab fa-linkedin"></i>
               </a>
-              <a
-                href={personalInfo.socialLinks.twitter}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="social-link"
-              >
-                <i className="fab fa-twitter"></i>
-              </a>
+         <a
+  href={personalInfo.socialLinks.telegram}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="social-icon"
+>
+  <i className="fab fa-telegram-plane"></i>
+</a>
               <a
                 href={personalInfo.socialLinks.instagram}
                 target="_blank"

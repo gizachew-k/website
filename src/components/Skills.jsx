@@ -11,40 +11,34 @@ const Skills = () => {
 
   // Skill categories with icons and colors
   const skillCategories = [
-    {
-      category: "Frontend",
-      icon: "🎨",
-      skills: [
-        { name: "React", level: 50, color: "#61DAFB" },
-        { name: "JavaScript", level: 75, color: "#F7DF1E" },
-        { name: "HTML5", level: 90, color: "#E34F26" },
-        { name: "CSS3", level: 90, color: "#1572B6" }
-        // { name: "TypeScript", level: 75, color: "#3178C6" },
-        // { name: "Next.js", level: 80, color: "#000000" }
-      ]
-     },
-    // {
-    //   category: "Backend",
-    //   icon: "⚙️",
-    //   skills: [
-    //     { name: "Node.js", level: 85, color: "#339933" },
-    //     { name: "Python", level: 80, color: "#3776AB" },
-    //     { name: "Express", level: 85, color: "#000000" },
-    //     { name: "MongoDB", level: 80, color: "#47A248" },
-    //     { name: "PostgreSQL", level: 70, color: "#336791" },
-    //     { name: "REST APIs", level: 90, color: "#FF6B6B" }
-    //   ]
-    // },
+  {
+    category: "Frontend",
+    icon: "🎨",
+    skills: [
+      { name: "React", level: 50, color: "#61DAFB" },
+      { name: "JavaScript", level: 75, color: "#F7DF1E" },
+      { name: "HTML5", level: 90, color: "#E34F26" },
+      { name: "CSS3", level: 90, color: "#1572B6" }
+    ]
+  },
+  {
+    category: "Backend (Learning)",
+    icon: "⚙️",
+    color: "#339933",
+    skills: [
+      { name: "Node.js", level: 40, color: "#339933" },      // Learning
+      { name: "Express", level: 5, color: "#000000" },       // Learning
+      { name: "MongoDB", level: 40, color: "#47A248" },       // Learning
+    ]
+  },
     {
       category: "Tools & Others",
       icon: "🔧",
       skills: [
         { name: "Git", level: 50, color: "#F05032" },
-        // { name: "Docker", level: 70, color: "#2496ED" },
-        // { name: "AWS", level: 65, color: "#FF9900" },
-        // { name: "Figma", level: 75, color: "#F24E1E" },
+        
         { name: "VS Code", level:70, color: "#007ACC" },
-        // { name: "Firebase", level: 80, color: "#FFCA28" }
+        
       ]
     }
   ];
@@ -115,20 +109,7 @@ const Skills = () => {
           ))}
         </div>
 
-        {/* Additional Skills Cloud */}
-        {/* <motion.div
-          className="skills-cloud"
-          initial={{ opacity: 0, y: 30 }}
-          animate={inView ? { opacity: 1, y: 0 } : {}}
-          transition={{ duration: 0.8, delay: 0.8 }}
-        >
-          <h3>Additional Technologies</h3>
-          <div className="cloud-tags">
-            {['Redux', 'GraphQL', 'Jest', 'Webpack', 'SASS', 'Tailwind', 'MySQL', 'Redis', 'Kubernetes', 'Jenkins'].map(tech => (
-              <span key={tech} className="cloud-tag">{tech}</span>
-            ))}
-          </div>
-        </motion.div> */}
+       
       </div>
     </section>
   );

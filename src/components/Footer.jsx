@@ -35,39 +35,7 @@ const Footer = () => {
       <div className="footer-container">
         {/* Main footer content */}
         <div className="footer-content">
-          {/* Brand Section */}
-          <motion.div 
-            className="footer-brand"
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            viewport={{ once: true }}
-          >
-            <h3 className="footer-logo">
-              <span className="logo-bracket">&lt;</span>
-              Gizachew
-              <span className="logo-bracket">/&gt;</span>
-            </h3>
-            <p className="footer-bio">
-              Full Stack Developer passionate about creating beautiful and functional web experiences.
-            </p>
-            <div className="footer-contact">
-              <div className="contact-item">
-                <i className="fas fa-envelope"></i>
-                <span>{personalInfo.email}</span>
-              </div>
-              <div className="contact-item">
-                <i className="fas fa-phone"></i>
-                <span>{personalInfo.phone}</span>
-              </div>
-              <div className="contact-item">
-                <i className="fas fa-map-marker-alt"></i>
-                <span>{personalInfo.location}</span>
-              </div>
-            </div>
-          </motion.div>
-
-          {/* Quick Links */}
+         
           <motion.div 
             className="footer-links-section"
             initial={{ opacity: 0, y: 30 }}
