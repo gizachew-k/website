@@ -43,7 +43,7 @@ const Hero = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            WELCOME TO MY PORTFOLIO
+            WELCOME TO MY WEBSITE
           </motion.h2>
 
           <motion.h1
@@ -96,7 +96,7 @@ const Hero = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="social-icon"
-            >
+            > 
               <i className="fab fa-github"></i>
             </a>
             <a
@@ -108,13 +108,13 @@ const Hero = () => {
               <i className="fab fa-linkedin"></i>
             </a>
             <a
-              href={personalInfo.socialLinks.twitter}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="social-icon"
-            >
-              <i className="fab fa-twitter"></i>
-            </a>
+  href={personalInfo.socialLinks.telegram}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="social-icon"
+>
+  <i className="fab fa-telegram-plane"></i>
+</a>
             <a
               href={personalInfo.socialLinks.instagram}
               target="_blank"

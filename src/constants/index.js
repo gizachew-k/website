@@ -13,9 +13,9 @@ export const personalInfo = {
   
   socialLinks: {
     github: "https://github.com/gizachew-k",
-    linkedin: "https://linkedin.com/in/yourusername",
-    twitter: "https://twitter.com/yourusername",
-    instagram: "https://instagram.com/yourusername"
+    linkedin: "https://linkedin.com/in/Gizachew Kassa",
+    instagram: "https://instagram.com/gize.ja",
+    telegram: "https://t.me/Gize_kassa"
   }
 };
 
@@ -34,7 +34,7 @@ export const skills = [
     category: "Backend",
     items: [
      
-      { name: "SQL", level: 65, icon: "🗄️" }
+      { name: "SQL" }
     ]
   },
   {
@@ -48,36 +48,36 @@ export const skills = [
   }
 ];
 
-// ===== EXPERIENCE =====
-export const experiences = [
-  {
-    id: 1,
-    title: "Senior Frontend Developer",
-    company: "Tech Solutions Inc.",
-    location: "San Francisco, CA",
-    period: "2022 - Present",
-    description: "Lead developer for multiple web applications, managing a team of 3 developers. Implemented responsive designs and improved performance by 40%.",
-    technologies: ["React", "TypeScript", "Redux", "Tailwind"]
-  },
-  {
-    id: 2,
-    title: "Web Developer",
-    company: "Creative Agency",
-    location: "New York, NY",
-    period: "2020 - 2022",
-    description: "Developed and maintained client websites. Collaborated with designers to create pixel-perfect implementations.",
-    technologies: ["JavaScript", "React", "SASS", "WordPress"]
-  },
-  {
-    id: 3,
-    title: "Junior Developer",
-    company: "StartUp Co.",
-    location: "Remote",
-    period: "2019 - 2020",
-    description: "Built responsive websites and learned modern web development practices.",
-    technologies: ["HTML", "CSS", "JavaScript", "jQuery"]
-  }
-];
+// // ===== EXPERIENCE =====
+// export const experiences = [
+//   {
+//     id: 1,
+//     title: "Senior Frontend Developer",
+//     company: "Tech Solutions Inc.",
+//     location: "San Francisco, CA",
+//     period: "2022 - Present",
+//     description: "Lead developer for multiple web applications, managing a team of 3 developers. Implemented responsive designs and improved performance by 40%.",
+//     technologies: ["React", "TypeScript", "Redux", "Tailwind"]
+//   },
+//   {
+//     id: 2,
+//     title: "Web Developer",
+//     company: "Creative Agency",
+//     location: "New York, NY",
+//     period: "2020 - 2022",
+//     description: "Developed and maintained client websites. Collaborated with designers to create pixel-perfect implementations.",
+//     technologies: ["JavaScript", "React", "SASS", "WordPress"]
+//   },
+//   {
+//     id: 3,
+//     title: "Junior Developer",
+//     company: "StartUp Co.",
+//     location: "Remote",
+//     period: "2019 - 2020",
+//     description: "Built responsive websites and learned modern web development practices.",
+//     technologies: ["HTML", "CSS", "JavaScript", "jQuery"]
+//   }
+// ];
 
 // ===== YOUR PROJECTS =====
 // ===== YOUR PROJECTS - Replace with your actual projects =====
