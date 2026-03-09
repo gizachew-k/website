@@ -24,18 +24,16 @@ export const skills = [
   {
     category: "Frontend",
     items: [
-      { name: "React", level: 90, icon: "⚛️" },
-      { name: "JavaScript", level: 85, icon: "💛" },
-      { name: "HTML/CSS", level: 95, icon: "🎨" },
-      { name: "TypeScript", level: 75, icon: "🔷" }
+      { name: "React"  },
+      { name: "JavaScript" },
+      { name: "HTML/CSS" },
+      { name: "TypeScript"}
     ]
   },
   {
     category: "Backend",
     items: [
-      { name: "Node.js", level: 80, icon: "💚" },
-      { name: "Python", level: 75, icon: "🐍" },
-      { name: "MongoDB", level: 70, icon: "🍃" },
+     
       { name: "SQL", level: 65, icon: "🗄️" }
     ]
   },
@@ -82,69 +80,69 @@ export const experiences = [
 ];
 
 // ===== YOUR PROJECTS =====
+// ===== YOUR PROJECTS - Replace with your actual projects =====
 export const projects = [
   {
     id: 1,
     title: "E-Commerce Platform",
-    description: "A full-featured e-commerce platform with user authentication, product management, shopping cart, and payment integration.",
+    description: "A full-featured e-commerce platform with user authentication, product management, shopping cart, and secure payment integration using Stripe.",
     image: "https://via.placeholder.com/600x400/1a1a2e/915eff?text=E-Commerce",
-    technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-    github: "https://github.com/yourusername/project1",
-    live: "https://project1-demo.com",
+    technologies: ["React", "Node.js", "MongoDB", "Stripe", "Redux"],
+    github: "https://github.com/gizachew-k/ecommerce",
+    live: "https://ecommerce-demo.com",
     featured: true
   },
   {
     id: 2,
     title: "Task Management App",
-    description: "A beautiful task management application with drag-and-drop functionality, real-time updates, and team collaboration features.",
+    description: "A collaborative task management application with drag-and-drop functionality, real-time updates, team workspaces, and progress tracking.",
     image: "https://via.placeholder.com/600x400/1a1a2e/915eff?text=Task+App",
-    technologies: ["React", "Firebase", "Framer Motion", "Tailwind"],
-    github: "https://github.com/yourusername/project2",
-    live: "https://project2-demo.com",
+    technologies: ["React", "Firebase", "Framer Motion", "Tailwind", "Redux"],
+    github: "https://github.com/gizachew-k/taskmanager",
+    live: "https://taskmanager-demo.com",
     featured: true
   },
   {
     id: 3,
     title: "Weather Dashboard",
-    description: "A real-time weather application with beautiful animations, detailed forecasts, and interactive maps.",
+    description: "A beautiful weather application with real-time data, 7-day forecasts, interactive maps, and location-based weather alerts.",
     image: "https://via.placeholder.com/600x400/1a1a2e/915eff?text=Weather",
-    technologies: ["React", "API Integration", "Chart.js", "CSS"],
-    github: "https://github.com/yourusername/project3",
-    live: "https://project3-demo.com",
+    technologies: ["React", "OpenWeather API", "Chart.js", "CSS3", "Geolocation"],
+    github: "https://github.com/gizachew-k/weather",
+    live: "https://weather-demo.com",
     featured: false
   },
-  // {
-  //   id: 4,
-  //   title: "AI Image Generator",
-  //   description: "Generate unique images using AI. Built with React and OpenAI's DALL-E API.",
-  //   image: "https://via.placeholder.com/600x400/1a1a2e/915eff?text=AI+Generator",
-  //   technologies: ["React", "OpenAI API", "Node.js", "Express"],
-  //   github: "https://github.com/yourusername/project4",
-  //   live: "https://project4-demo.com",
-  //   featured: true
-  // },
+  {
+    id: 4,
+    title: "AI Image Generator",
+    description: "An AI-powered image generation tool using OpenAI's DALL-E API. Create unique images from text descriptions with customization options.",
+    image: "https://via.placeholder.com/600x400/1a1a2e/915eff?text=AI+Generator",
+    technologies: ["React", "OpenAI API", "Node.js", "Express", "MongoDB"],
+    github: "https://github.com/gizachew-k/ai-generator",
+    live: "https://ai-generator-demo.com",
+    featured: true
+  },
   {
     id: 5,
     title: "Social Media Dashboard",
-    description: "A dashboard for managing multiple social media accounts with analytics and scheduling.",
+    description: "A comprehensive dashboard for managing multiple social media accounts with analytics, scheduling, and performance tracking.",
     image: "https://via.placeholder.com/600x400/1a1a2e/915eff?text=Social+Dashboard",
-    technologies: ["React", "Redux", "Node.js", "MongoDB"],
-    github: "https://github.com/yourusername/project5",
-    live: "https://project5-demo.com",
+    technologies: ["React", "Redux", "Node.js", "MongoDB", "Socket.io"],
+    github: "https://github.com/gizachew-k/social-dashboard",
+    live: "https://social-dashboard-demo.com",
     featured: false
   },
   {
     id: 6,
     title: "Portfolio Website",
-    description: "This very portfolio website you're looking at! Built with React and Framer Motion.",
+    description: "This very portfolio website! A modern, responsive portfolio built with React and Framer Motion to showcase my work and skills.",
     image: "https://via.placeholder.com/600x400/1a1a2e/915eff?text=Portfolio",
-    technologies: ["React", "Framer Motion", "CSS3"],
-    github: "https://github.com/yourusername/portfolio",
-    live: "https://yourportfolio.com",
+    technologies: ["React", "Framer Motion", "CSS3", "EmailJS", "React Intersection Observer"],
+    github: "https://github.com/gizachew-k/portfolio",
+    live: "https://gizachew-k.github.io/website",
     featured: true
   }
 ];
-
 
 // ===== EMAILJS CONFIGURATION - UPDATE WITH YOUR CREDENTIALS =====
 export const emailConfig = {

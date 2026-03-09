@@ -18,20 +18,23 @@ const Navbar = () => {
   }, []);
 
   const scrollToSection = (sectionId) => {
-    setActiveLink(sectionId);
-    setIsMenuOpen(false);
-    
-    const element = document.getElementById(sectionId);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
+  setActiveLink(sectionId);
+  setIsMenuOpen(false);
+  
+  const element = document.getElementById(sectionId);
+  if (element) {
+    element.scrollIntoView({ behavior: 'smooth' });
+  } else {
+    console.log("Element not found:", sectionId);
+  }
+};
 
   const navLinks = [
     { id: 'home', title: 'Home' },
     { id: 'about', title: 'About' },
     { id: 'projects', title: 'Projects' },
-    { id: 'contact', title: 'Contact' }
+    { id: 'contact', title: 'Contact' },
+     { id: 'skills', title: 'Skills' }
   ];
 
   return (
