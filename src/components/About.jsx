@@ -38,7 +38,7 @@ const About = () => {
           transition={{ duration: 0.8 }}
           ref={ref}
         >
-          About <span className="highlight">Me</span>
+          About <span>Me</span>
         </motion.h2>
 
         <div className="about-content">

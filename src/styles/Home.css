@@ -1,5 +1,130 @@
 /* src/styles/Hero.css */
 
+
+
+/* 3D Cube Container */
+.cube-wrapper {
+  position: absolute;
+  right: 10%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+  z-index: 1;
+  animation: floatCube 6s ease-in-out infinite;
+}
+
+@keyframes floatCube {
+  0%, 100% { transform: translateY(-50%) translateX(0); }
+  50% { transform: translateY(-60%) translateX(-20px); }
+}
+
+.cube {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  animation: rotateCube 20s infinite linear;
+}
+
+@keyframes rotateCube {
+  0% {
+    transform: rotateX(0deg) rotateY(0deg);
+  }
+  100% {
+    transform: rotateX(360deg) rotateY(720deg);
+  }
+}
+
+.cube-face {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background: linear-gradient(135deg, rgba(145, 94, 255, 0.15), rgba(107, 107, 255, 0.15));
+  border: 2px solid rgba(145, 94, 255, 0.3);
+  backdrop-filter: blur(5px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  color: white;
+  text-shadow: 0 0 15px rgba(145, 94, 255, 0.8);
+  box-shadow: 0 0 30px rgba(145, 94, 255, 0.2);
+  transition: all 0.3s ease;
+}
+
+.cube-face:hover {
+  border-color: #915eff;
+  box-shadow: 0 0 50px rgba(145, 94, 255, 0.5);
+  background: linear-gradient(135deg, rgba(145, 94, 255, 0.25), rgba(107, 107, 255, 0.25));
+}
+
+/* Position each face */
+.cube-face.front {
+  transform: translateZ(150px);
+}
+
+.cube-face.back {
+  transform: rotateY(180deg) translateZ(150px);
+}
+
+.cube-face.right {
+  transform: rotateY(90deg) translateZ(150px);
+}
+
+.cube-face.left {
+  transform: rotateY(-90deg) translateZ(150px);
+}
+
+.cube-face.top {
+  transform: rotateX(90deg) translateZ(150px);
+}
+
+.cube-face.bottom {
+  transform: rotateX(-90deg) translateZ(150px);
+}
+
+/* Different emojis for each face */
+.cube-face.front::after { content: "html/css"; }
+.cube-face.back::after { content: "express"; }
+.cube-face.right::after { content: "javascript"; }
+.cube-face.left::after { content: "react.js"; }
+.cube-face.top::after { content: "node.js"; }
+.cube-face.bottom::after { content: "mongodb"; }
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .cube-wrapper {
+    width: 200px;
+    height: 200px;
+    right: 5%;
+  }
+  
+  .cube-face {
+    width: 200px;
+    height: 200px;
+    font-size: 2rem;
+  }
+  
+  .cube-face.front { transform: translateZ(100px); }
+  .cube-face.back { transform: rotateY(180deg) translateZ(100px); }
+  .cube-face.right { transform: rotateY(90deg) translateZ(100px); }
+  .cube-face.left { transform: rotateY(-90deg) translateZ(100px); }
+  .cube-face.top { transform: rotateX(90deg) translateZ(100px); }
+  .cube-face.bottom { transform: rotateX(-90deg) translateZ(100px); }
+}
+
+@media (max-width: 768px) {
+  .cube-wrapper {
+    display: none; /* Hide on mobile for better performance */
+  }
+}
+
+
+
+
+
 .hero {
   min-height: 100vh;
   display: flex;
@@ -80,6 +205,7 @@
 
 .hero-title span {
   background: linear-gradient(135deg, #915eff, #6b6bff);
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: inline-block;
 }
