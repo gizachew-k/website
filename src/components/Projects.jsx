@@ -58,9 +58,14 @@ const Projects = () => {
                   ))}
                 </div>
                 <div className="project-links">
-                  <a href={project.live} target="_blank" rel="noopener noreferrer" className="btn btn-primary">
-                    Live Demo
-                  </a>
+                 // ✅ CORRECT: Must have target="_blank" and rel="noreferrer"
+<a 
+  href={project.live} 
+  target="_blank" 
+  rel="noreferrer"
+>
+  Live Demo
+</a>
                   <a href={project.github} target="_blank" rel="noopener noreferrer" className="btn btn-outline">
                     GitHub
                   </a>
