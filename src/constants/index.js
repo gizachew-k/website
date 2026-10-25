@@ -67,7 +67,7 @@ export const projects = [
    image: "/p2p-preview.png",
    technologies: ["React", "Node.js", "Express", "MongoDB", "RESTful API"],
     github: "https://github.com/gize22/peertopeer",
-    live: "p2plearn.vercel.app",
+    live: "https://p2plearn.vercel.app",
     featured: true
   },
   {
