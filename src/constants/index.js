@@ -64,10 +64,10 @@ export const projects = [
     id: 2,
     title: "PeerLearn - P2P Learning Platform",
     description: "A full-stack peer-to-peer web application connecting users for resource sharing and collaborative learning. Built with dynamic React UI, RESTful APIs, and Node.js backend integration.",
-   image: "/p2p-preview.png",
-   technologies: ["React", "Node.js", "Express", "MongoDB", "RESTful API"],
+    image: "/p2p-preview.png",
+    technologies: ["React", "Node.js", "Express", "MongoDB", "RESTful API"],
     github: "https://github.com/gize22/peertopeer",
-    live: "https://p2plearn.vercel.app",
+    live: "https://p2plearn.vercel.app", // <--- Must include https:// so it doesn't break
     featured: true
   },
   {
