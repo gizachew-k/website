@@ -24,7 +24,6 @@ const Skills = () => {
   {
     category: "Backend (Learning)",
     icon: "⚙️",
-    color: "#339933",
     skills: [
       { name: "Node.js"},      // Learning
       { name: "Express" },       // Learning
