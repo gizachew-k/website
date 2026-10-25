@@ -9,35 +9,22 @@ const Skills = () => {
     threshold: 0.1,
   });
 
-  // Skill categories with icons
+  // Skill categories with clean string arrays
   const skillCategories = [
     {
       category: "Frontend",
       icon: "🎨",
-      skills: [
-        { name: "React" },
-        { name: "JavaScript" },
-        { name: "HTML5" },
-        { name: "CSS3" }
-      ]
+      skills: ["React", "JavaScript", "HTML5", "CSS3"]
     },
     {
       category: "Backend (Learning)",
       icon: "⚙️",
-      skills: [
-        { name: "Node.js" },
-        { name: "Express" },
-        { name: "MongoDB" },
-      ]
+      skills: ["Node.js", "Express", "MongoDB"]
     },
     {
       category: "Tools & Others",
       icon: "🔧",
-      skills: [
-        { name: "Git" },
-        { name: "VS Code" },
-        { name: "postman" }
-      ]
+      skills: ["Git", "VS Code", "postman"]
     }
   ];
 
@@ -74,9 +61,9 @@ const Skills = () => {
               </div>
 
               <div className="skills-grid">
-                {category.skills.map((skill, index) => (
+                {category.skills.map((skillName, index) => (
                   <motion.div
-                    key={skill.name}
+                    key={skillName}
                     className="skill-item"
                     initial={{ opacity: 0, x: -20 }}
                     animate={inView ? { opacity: 1, x: 0 } : {}}
@@ -85,7 +72,7 @@ const Skills = () => {
                   >
                     <div className="skill-info">
                       <div className="skill-name">
-                        <h4>{skill.name}</h4>
+                        <h4>{skillName}</h4>
                       </div>
                     </div>
                   </motion.div>
