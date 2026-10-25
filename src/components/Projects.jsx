@@ -58,7 +58,7 @@ const Projects = () => {
                   ))}
                 </div>
                 <div className="project-links">
-                 // ✅ CORRECT: Must have target="_blank" and rel="noreferrer"
+                
 <a 
   href={project.live} 
   target="_blank" 
