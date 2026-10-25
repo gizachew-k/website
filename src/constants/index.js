@@ -4,7 +4,7 @@
 export const personalInfo = {
   name: "Gizachew kassa", // Your name
   title: "Aspiring Full Stack Developer",
-  email: "gizachewkassa33@example.com",
+  email: "gizachewkassa33@gmail.com",
   phone: "+251 972182578",
   location: "ethiopia",
   bio: "I'm a passionate developer who loves building beautiful and functional web applications. I specialize in React and modern JavaScript.",
