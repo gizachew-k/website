@@ -9,36 +9,34 @@ const Skills = () => {
     threshold: 0.1,
   });
 
-  // Skill categories with icons and colors
+  // Skill categories with icons
   const skillCategories = [
-  {
-    category: "Frontend",
-    icon: "🎨",
-    skills: [
-      { name: "React"},
-      { name: "JavaScript"},
-      { name: "HTML5" },
-      { name: "CSS3" }
-    ]
-  },
-  {
-    category: "Backend (Learning)",
-    icon: "⚙️",
-    skills: [
-      { name: "Node.js"},      // Learning
-      { name: "Express" },       // Learning
-      { name: "MongoDB" },       // Learning
-    ]
-  },
+    {
+      category: "Frontend",
+      icon: "🎨",
+      skills: [
+        { name: "React" },
+        { name: "JavaScript" },
+        { name: "HTML5" },
+        { name: "CSS3" }
+      ]
+    },
+    {
+      category: "Backend (Learning)",
+      icon: "⚙️",
+      skills: [
+        { name: "Node.js" },
+        { name: "Express" },
+        { name: "MongoDB" },
+      ]
+    },
     {
       category: "Tools & Others",
       icon: "🔧",
       skills: [
-        { name: "Git"},
-        
+        { name: "Git" },
         { name: "VS Code" },
-        { name: "postman"}
-        
+        { name: "postman" }
       ]
     }
   ];
@@ -55,7 +53,6 @@ const Skills = () => {
         >
           <h2 className="section-title">
               My Skills
-              {/* <span className="highlight">Skills</span>  */}
           </h2>
           <p className="section-subtitle">
             I've worked with a variety of technologies and tools. 
@@ -88,19 +85,8 @@ const Skills = () => {
                   >
                     <div className="skill-info">
                       <div className="skill-name">
-                        <span className="skill-dot" style={{ backgroundColor: skill.color }}></span>
                         <h4>{skill.name}</h4>
                       </div>
-                      <span className="skill-percentage">{skill.level}%</span>
-                    </div>
-                    <div className="skill-bar-container">
-                      <motion.div
-                        className="skill-bar"
-                        initial={{ width: 0 }}
-                        animate={inView ? { width: `${skill.level}%` } : { width: 0 }}
-                        transition={{ duration: 1, delay: (categoryIndex * 0.2) + (index * 0.1) }}
-                        style={{ backgroundColor: skill.color }}
-                      />
                     </div>
                   </motion.div>
                 ))}
@@ -108,8 +94,6 @@ const Skills = () => {
             </motion.div>
           ))}
         </div>
-
-       
       </div>
     </section>
   );
