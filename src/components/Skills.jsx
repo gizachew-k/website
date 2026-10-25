@@ -15,10 +15,10 @@ const Skills = () => {
     category: "Frontend",
     icon: "🎨",
     skills: [
-      { name: "React", level: 50, color: "#61DAFB" },
-      { name: "JavaScript", level: 75, color: "#F7DF1E" },
-      { name: "HTML5", level: 90, color: "#E34F26" },
-      { name: "CSS3", level: 90, color: "#1572B6" }
+      { name: "React"},
+      { name: "JavaScript"},
+      { name: "HTML5" },
+      { name: "CSS3" }
     ]
   },
   {
@@ -26,18 +26,19 @@ const Skills = () => {
     icon: "⚙️",
     color: "#339933",
     skills: [
-      { name: "Node.js", level: 40, color: "#339933" },      // Learning
-      { name: "Express", level: 5, color: "#000000" },       // Learning
-      { name: "MongoDB", level: 40, color: "#47A248" },       // Learning
+      { name: "Node.js"},      // Learning
+      { name: "Express" },       // Learning
+      { name: "MongoDB" },       // Learning
     ]
   },
     {
       category: "Tools & Others",
       icon: "🔧",
       skills: [
-        { name: "Git", level: 50, color: "#F05032" },
+        { name: "Git"},
         
-        { name: "VS Code", level:70, color: "#007ACC" },
+        { name: "VS Code" },
+        { name: "postman"}
         
       ]
     }
