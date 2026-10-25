@@ -62,13 +62,13 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Todo List App (Coming Soon)",
-    description: "A feature-rich todo application with local storage, categories, and dark mode. Currently in development.",
-   image: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=600&h=400&fit=crop",
-    technologies: ["React", "LocalStorage", "CSS"],
-    github: "https://github.com/gizachew-k/todo-app",
-    live: "#",
-    featured: false
+    title: "PeerLearn - P2P Learning Platform",
+    description: "A full-stack peer-to-peer web application connecting users for resource sharing and collaborative learning. Built with dynamic React UI, RESTful APIs, and Node.js backend integration.",
+   image: "/p2p-preview.png",
+   technologies: ["React", "Node.js", "Express", "MongoDB", "RESTful API"],
+    github: "https://github.com/gize22/peertopeer",
+    live: "p2plearn.vercel.app",
+    featured: true
   },
   {
     id: 3,
